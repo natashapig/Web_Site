@@ -1,0 +1,89 @@
+body{
+    padding:0;
+    margin: 0;
+}
+header {
+    height: 150px;
+    background-color: #E4FCBA;
+}
+main{
+    background-color: rgb(56, 60, 51);
+}
+p{
+    font: 100;
+    font-family:'Courier New', Courier, monospace;
+    color:azure;
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    z-index: 5;
+}
+.fio {
+    position: relative;
+    height: 500px;
+    padding: auto;
+    text-align: center;
+    background: linear-gradient(rgba(37, 37, 37, 0.8), rgba(17, 18, 15, 0.9)), url(bord.jpg);
+    background-size: cover;
+}
+
+.fio p{
+    position: relative;
+    z-index: 5;
+    font: 600;
+    padding: 50px;
+    font-size: 60px;
+    text-align: center;
+    
+}
+a{
+    color: azure;
+}
+.fio .description p{
+    padding: 20px;
+    font-size: 25px;
+}
+.fio .description{
+    margin:auto;
+    width: 400px;
+    text-align: center;
+}
+.minianc {
+    margin-left: 255px;
+    margin-right: 255px;
+}
+.minianc p{
+    text-align: center;
+    color: azure;
+    background-color: rgb(70, 81, 65);
+    margin-top: 40px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.minianc img{
+    float: left;
+    width: 400px;
+    border-radius: 25px;
+    border: 5px solid azure;
+}
+.minianc .description{
+    margin: 0;
+    border-radius: 25px;
+    border: 5px solid azure;
+    font-size: 25px;
+    float: right;
+    color: azure;
+    background-color: rgb(32, 35, 31);
+    width: 500px;
+    height: 525.1px;
+    padding:  20px 30px 0 30px;
+    text-align: center;
+}
+
+.member {
+    height: 580px;
+}
+footer {
+    height: 150px;
+    background-color: #5a614c;
+}
